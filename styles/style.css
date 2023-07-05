@@ -163,7 +163,7 @@ body {
 .lots {
     flex-direction: column;
     row-gap: 27px;
-    margin: 180px 50px;
+    margin: 180px 50px 0 50px;
 }
 
 .lots__card-list {
@@ -258,7 +258,7 @@ body {
 /* для блока об аукционе*/
 .about {
     grid-template-columns: 430px 1fr;
-    padding: 92px 50px;
+    padding: 185px 50px 0px 50px;
     gap: 25px;
 }
 
@@ -312,7 +312,7 @@ body {
 
 .footer {
     grid-template-columns: 1fr 149px 1fr;
-    padding: 92px 50px;
+    padding: 180px 50px 0px 50px;
 }
 
 .footer__menu-link_active .footer__link {
