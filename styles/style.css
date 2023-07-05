@@ -29,8 +29,6 @@ body {
     align-self: center;
     height: 109px;
     width: 138px;
-    /* display: block; */
-    /* flex-shrink: 0; */
 }
 
 .header__menu {
@@ -86,7 +84,6 @@ body {
     height: 100%;
     background-color: rgba(0 0 0 /0.6);
     position: absolute;
-    /* inset: 0; */
     z-index: 2;
 }
 
@@ -179,8 +176,6 @@ body {
   }
 
 .card {
-    /* width: 430px;
-    height: 450px; */
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
