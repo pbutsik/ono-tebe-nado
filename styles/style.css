@@ -76,7 +76,7 @@ body {
     padding: 0;
     margin: 0;
     background-image: url(../images/cover.jpg);
-    /* background-size: 1440px 757px; */
+    background-size: cover;
     height: 757px;
     background-repeat: no-repeat;
 }
@@ -99,8 +99,8 @@ body {
   }
 
 .aligned-text_right {
-    text-align: end;
-    margin-left: 69%;
+    display: block;
+    text-align: right;
   }
 
 .cover__title {
@@ -122,7 +122,7 @@ body {
 }
 
 .no-letter-spacing {
-    letter-spacing: 30px;
+    letter-spacing: 0px;
 }
 
 .cover__description {
@@ -141,7 +141,7 @@ body {
     font-weight: 400;
     line-height: 18px;
     text-transform: uppercase;
-    word-spacing: 17px;
+    word-spacing: 18px;
 }
 
 .bet-button {
