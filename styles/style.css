@@ -21,13 +21,16 @@ body {
 /* для блока header */
 .header {
     grid-template-columns: 1fr 148px 1fr;
-    padding: 92px 50px;
+    padding: 92px 49px 92px 51px;
 }
 
 .header__logo {
-    height: 105px;
-    display: block;
-    flex-shrink: 0;
+    justify-self: center;
+    align-self: center;
+    height: 109px;
+    width: 138px;
+    /* display: block; */
+    /* flex-shrink: 0; */
 }
 
 .header__menu {
