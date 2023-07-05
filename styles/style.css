@@ -2,8 +2,6 @@
 body {
     margin: 0 auto;
     /* padding: 0; */
-    width: 1440px;
-    height: 2844px;
 }
 
 .flex {
@@ -14,14 +12,6 @@ body {
     display: grid;
 }
 
-.content-section {
-    box-sizing: border-box;
-    /* width: 1340px; */
-    flex-shrink: 0;
-    /* margin: auto; */
-    padding: 92px 50px;
-  }
-
 .position__sticky {
     position: sticky;
     z-index: 100500;
@@ -31,10 +21,10 @@ body {
 /* для блока header */
 .header {
     grid-template-columns: 1fr 148px 1fr;
+    padding: 92px 50px;
 }
 
 .header__logo {
-    width: 148px;
     height: 105px;
     display: block;
     flex-shrink: 0;
@@ -83,15 +73,16 @@ body {
     padding: 0;
     margin: 0;
     background-image: url(../images/cover.jpg);
-    background-size: 1440px 757px;
+    /* background-size: 1440px 757px; */
     background-repeat: no-repeat;
 }
 
 .overlay {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     background-color: rgba(0 0 0 /0.5);
     position: absolute;
+    inset: 0;
     z-index: 2;
 }
 
@@ -250,6 +241,28 @@ body {
     line-height: normal;
 }
 /* для блока лоты*/
+
+/* для блока об аукционе*/
+
+.about__title {
+    color: #000;
+    font-size: 40px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.about__text {
+    color: #000;
+    font-size: 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* для блока об аукционе*/
 
 /* для блока footer */
 .footer-address {
