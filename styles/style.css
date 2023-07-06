@@ -325,7 +325,7 @@ body {
 
 .footer {
   grid-template-columns: 1fr 149px 1fr;
-  padding: 180px 50px 0px 50px;
+  padding: 180px 50px 90px 50px;
 }
 
 .footer__link {
